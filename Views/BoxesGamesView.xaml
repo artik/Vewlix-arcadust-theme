@@ -1,0 +1,63 @@
+<UserControl xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+			 xmlns:videos="clr-namespace:Unbroken.LaunchBox.Wpf.BigBox.Controls;assembly=BigBox"
+			 xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+			 xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+			 xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+			 xmlns:transitions="clr-namespace:Unbroken.LaunchBox.Wpf.Transitions;assembly=Unbroken.LaunchBox.Wpf"
+			 mc:Ignorable="d"
+			 d:DesignHeight="562" d:DesignWidth="1000" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Style="{DynamicResource UserControlStyle}">
+
+<!-- VIEW START -->	
+	<Canvas Name="Canvas">
+
+
+	<!-- BACKGROUND -->	
+		<Grid Height="{Binding ElementName=Canvas, Path=ActualHeight}" Width="{Binding ElementName=Canvas, Path=ActualWidth}">
+			<videos:VideoControl VideoPath="pack://siteoforigin:,,,/Themes/ArcadeDust/Videos/Background.mp4" StretchVideo="true" CenterVideo="false" />
+		</Grid>
+		
+
+	<!-- MAIN GRID -->
+		<Grid Height="{Binding ElementName=Canvas, Path=ActualHeight}" Width="{Binding ElementName=Canvas, Path=ActualWidth}">
+			<Grid.Background>
+				<SolidColorBrush Color="Black" Opacity="{Binding BackgroundFade}" />
+			</Grid.Background>
+			<Grid.RowDefinitions>
+				<RowDefinition Height="3.5*" />
+				<RowDefinition Height="33.75*" />
+				<RowDefinition Height="3.5*" />
+				<RowDefinition Height="1.5*" />
+				<RowDefinition Height="45*" />
+				<RowDefinition Height="1.5*" />
+				<RowDefinition Height="3.5*" />
+			</Grid.RowDefinitions>
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition Width="3*" />
+				<ColumnDefinition Width="1*" />
+				<ColumnDefinition Width="37*" />
+				<ColumnDefinition Width="1*" />
+				<ColumnDefinition Width="54*" />
+				<ColumnDefinition Width="1*" />
+				<ColumnDefinition Width="3*" />
+			</Grid.ColumnDefinitions>
+			<Grid Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="7" Grid.RowSpan="7" Opacity="0.35" Background="Black" Panel.ZIndex="0"/>
+			
+			
+		<!-- BOXES -->
+			<transitions:TransitionPresenter Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="5" TransitionSelector="{Binding ListTransitionSelector}" Content="{Binding ListView}" />
+
+			
+		<!-- METADATA -->
+			<transitions:TransitionPresenter Grid.Row="4" Grid.Column="2" TransitionSelector="{Binding GameDetailsTransitionSelector}" Content="{Binding GameDetailsView}" Panel.ZIndex="5" />
+
+			
+		<!-- METADATA GLASS BAR -->
+			<Border Grid.Row="3" Grid.RowSpan="3" Grid.Column="1" Grid.ColumnSpan="2" Background="green" Opacity="0.7" Panel.ZIndex="4" SnapsToDevicePixels="True" CornerRadius="10" />
+
+			
+		<!-- VIDEO -->
+			<transitions:TransitionPresenter Grid.Row="3" Grid.RowSpan="3" Grid.Column="4" TransitionSelector="{Binding ImageVideoTransitionSelector}" Content="{Binding ImageVideoView}" IsContentVideo="true">
+			</transitions:TransitionPresenter>
+		</Grid>
+	</Canvas>
+</UserControl>

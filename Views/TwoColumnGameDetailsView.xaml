@@ -1,0 +1,70 @@
+<UserControl xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:bigBox="clr-namespace:Unbroken.LaunchBox.Wpf;assembly=Unbroken.LaunchBox.Wpf"
+			 xmlns:controls="clr-namespace:Unbroken.LaunchBox.Wpf.Controls;assembly=Unbroken.LaunchBox.Wpf"
+             mc:Ignorable="d"
+             d:DesignHeight="300" d:DesignWidth="300">
+
+<!-- INITIALIZING BANNER IMAGES SUPPORT -->
+	 <UserControl.Resources>
+        <bigBox:ImageToSourceConverter x:Key="ImageToSourceConverter" x:Name="ImageToSourceConverter"/>
+        <FontFamily x:Key="FontHead">/CityHunter.Resources;Component/Fonts/#Streamster</FontFamily>
+        <FontFamily x:Key="FontBody">/CityHunter.Resources;Component/Fonts/#Arcade</FontFamily>
+    </UserControl.Resources>
+
+
+<!-- MAIN GRID -->
+    <Grid VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Background="#00FFFFFF">
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition Width="3*" />
+			<ColumnDefinition Width="46*" />
+			<ColumnDefinition Width="2*" />
+			<ColumnDefinition Width="46*" />
+			<ColumnDefinition Width="2*" />
+		</Grid.ColumnDefinitions>
+		
+		
+	<!-- DETAILS HEADING -->	
+		<DockPanel Grid.Column="1" Panel.ZIndex="5">
+			<TextBlock Text="Details" FontFamily="{StaticResource FontBody}" FontSize="36" TextWrapping="Wrap" DockPanel.Dock="Top" >
+				<TextBlock.Foreground>
+					<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+						<GradientStop Color="#FFFE1C1C" Offset="1"/>
+						<GradientStop Color="#FFFF3737"/>
+					</LinearGradientBrush>
+				</TextBlock.Foreground>
+			</TextBlock>
+			
+			
+		<!-- DETAILS UNDERLINE -->
+			
+			
+		<!-- GAME DETAILS -->
+			<TextBlock Name="GameDetails" Text="{Binding Path=Details}" FontFamily="{StaticResource FontBody}" FontSize="30" Foreground="White" TextWrapping="Wrap" DockPanel.Dock="Top" TextTrimming="CharacterEllipsis" Margin="0,10,0,0" />
+		</DockPanel>
+		
+		
+	<!-- DESCRIPTION HEADING -->	
+		<DockPanel Grid.Column="3" Panel.ZIndex="5">
+			<TextBlock Text="Description" FontFamily="{StaticResource FontBody}" FontSize="36" TextWrapping="Wrap" DockPanel.Dock="Top"  >
+				<TextBlock.Foreground>
+					<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+						<GradientStop Color="#FFFE1C1C" Offset="1"/>
+						<GradientStop Color="#FFFF3737"/>
+					</LinearGradientBrush>
+				</TextBlock.Foreground>
+			</TextBlock>
+			
+			
+		<!-- DESCRIPTION UNDERLINE -->
+			
+			
+		<!-- GAME DESCRIPTION -->
+			<Canvas x:Name="NotesCanvas" ClipToBounds="True" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="0,10,0,0">
+				<controls:ScrollableTextBlock Name="GameNotesMod" Text="{Binding Path=Notes}" FontFamily="{StaticResource FontBody}" FontSize="30" Foreground="White" TextWrapping="Wrap" Width="{Binding ElementName=NotesCanvas, Path=ActualWidth}" ScrollBeginDelay="6" ScrollSpeed="2" ScrollAutoReverse="True" ScrollEndDelay="6" ReverseScrollSpeed="0.5" ScrollDirection="Up" />
+			</Canvas>
+		</DockPanel>
+    </Grid>
+</UserControl>

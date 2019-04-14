@@ -1,1 +1,1 @@
-vewlix-arcadust-theme
+ArcadeDust
