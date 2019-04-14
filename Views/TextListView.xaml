@@ -17,14 +17,14 @@
 	<UserControl.Resources>
 		<ResourceDictionary>
 			<ResourceDictionary.MergedDictionaries>
-				<ResourceDictionary Source="pack://siteoforigin:,,,/Themes/ArcadeDust/Styles/ListBoxStyle.xaml" />
+				<ResourceDictionary Source="pack://siteoforigin:,,,/Themes/Arcadust/Styles/ListBoxStyle.xaml" />
 			</ResourceDictionary.MergedDictionaries>
 		</ResourceDictionary>
 	</UserControl.Resources>
 
 	<DockPanel Name="RootPanel" Visibility="{Binding ListVisibility}" Background="Black">
 		<Image Name="Logo" DockPanel.Dock="Top" Visibility="{Binding LogoVisibility}" RenderOptions.BitmapScalingMode="HighQuality" />
-		<TextBlock Name="Title" FontFamily="LAUNCHBOX_ROOT_FOLDER/Themes/ArcadeDust/Fonts/kemco.ttf#Kemco Pixel" DockPanel.Dock="Top" Visibility="{Binding TitleVisibility}" Foreground="#ff3434" TextTrimming="CharacterEllipsis" TextWrapping="NoWrap" HorizontalAlignment="Stretch" />
+		<TextBlock Name="Title" FontFamily="LAUNCHBOX_ROOT_FOLDER/Themes/Arcadust/Fonts/kemco.ttf#Kemco Pixel" DockPanel.Dock="Top" Visibility="{Binding TitleVisibility}" Foreground="#ff3434" TextTrimming="CharacterEllipsis" TextWrapping="NoWrap" HorizontalAlignment="Stretch" />
 		
 		<ListBox Name="Index" Style="{DynamicResource ListBoxStyle}" DockPanel.Dock="Left" Width="70" Visibility="{Binding IndexVisibility}">
 			<i:Interaction.Triggers>

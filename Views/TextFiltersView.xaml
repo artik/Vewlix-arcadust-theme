@@ -13,8 +13,8 @@
 	<UserControl.Resources>
 		<ResourceDictionary>
 			<ResourceDictionary.MergedDictionaries>
-				<ResourceDictionary Source="pack://siteoforigin:,,,/Themes/ArcadeDust/Styles/UserControlStyle.xaml" />
-				<ResourceDictionary Source="pack://siteoforigin:,,,/Themes/ArcadeDust/Styles/ListBoxStyle.xaml" />
+				<ResourceDictionary Source="pack://siteoforigin:,,,/Themes/Arcadust/Styles/UserControlStyle.xaml" />
+				<ResourceDictionary Source="pack://siteoforigin:,,,/Themes/Arcadust/Styles/ListBoxStyle.xaml" />
 			</ResourceDictionary.MergedDictionaries>
 		</ResourceDictionary>
 	</UserControl.Resources>
@@ -50,7 +50,7 @@
 
 					<!-- FILTERS CATEGORIES TITLE-->
 					<Grid Grid.Row="0" Background="black">
-						<TextBlock Name="Title" VerticalAlignment="center" DockPanel.Dock="top" FontFamily="LAUNCHBOX_ROOT_FOLDER/Themes/ArcadeDust/Fonts/kemco.ttf#Kemco Pixel" Foreground="#ff3737" TextTrimming="CharacterEllipsis" TextWrapping="NoWrap" HorizontalAlignment="Center" />
+						<TextBlock Name="Title" VerticalAlignment="center" DockPanel.Dock="top" FontFamily="LAUNCHBOX_ROOT_FOLDER/Themes/Arcadust/Fonts/kemco.ttf#Kemco Pixel" Foreground="#ff3737" TextTrimming="CharacterEllipsis" TextWrapping="NoWrap" HorizontalAlignment="Center" />
 					</Grid>	
 
 					<!-- FILTERS LIST TITLE-->
@@ -131,7 +131,7 @@
 				<!-- TIME 
 				<Viewbox Grid.Row="6" Grid.Column="5">
 					<DockPanel>
-						<TextBlock x:Name="Clock" Text="{Binding CurrentTime}" FontSize="10" Margin="0,2,0,4" FontFamily="LAUNCHBOX_ROOT_FOLDER/Themes/ArcadeDust/Fonts/FreeDesign001Bitbit.ttf#FreeDesign001Bitbit" Foreground="#ff3737">
+						<TextBlock x:Name="Clock" Text="{Binding CurrentTime}" FontSize="10" Margin="0,2,0,4" FontFamily="LAUNCHBOX_ROOT_FOLDER/Themes/Arcadust/Fonts/FreeDesign001Bitbit.ttf#FreeDesign001Bitbit" Foreground="#ff3737">
 						</TextBlock>
 					</DockPanel>
 				</Viewbox>

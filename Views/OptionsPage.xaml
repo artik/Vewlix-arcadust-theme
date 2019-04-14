@@ -15,7 +15,7 @@
     <UserControl.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
-                <ResourceDictionary Source="pack://siteoforigin:,,,/Themes/ArcadeDust/Styles/ListBoxStyle.xaml" />
+                <ResourceDictionary Source="pack://siteoforigin:,,,/Themes/Arcadust/Styles/ListBoxStyle.xaml" />
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </UserControl.Resources>

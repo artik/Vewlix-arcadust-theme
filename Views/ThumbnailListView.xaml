@@ -84,7 +84,7 @@
 		</Style>
 	</UserControl.Resources>
 	<DockPanel HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
-		<TextBlock Name="Title" DockPanel.Dock="Top" Foreground="#707070" FontFamily="LAUNCHBOX_ROOT_FOLDER/Themes/ArcadeDust/Fonts/FreeDesign001Bitbit.ttf#FreeDesign001Bitbit" FontSize="20" />
+		<TextBlock Name="Title" DockPanel.Dock="Top" Foreground="#707070" FontFamily="LAUNCHBOX_ROOT_FOLDER/Themes/Arcadust/Fonts/FreeDesign001Bitbit.ttf#FreeDesign001Bitbit" FontSize="20" />
 		<ListBox Name="Items" Style="{DynamicResource ThumbnailListBoxStyle}" SelectedItem="{Binding SelectedItem}" >
 			<i:Interaction.Triggers>
 				<i:EventTrigger EventName="MouseDoubleClick">

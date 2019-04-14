@@ -11,7 +11,7 @@
 	<UserControl.Resources>
 		<ResourceDictionary>
 			<ResourceDictionary.MergedDictionaries>
-				<ResourceDictionary Source="pack://siteoforigin:,,,/Themes/ArcadeDust/Styles/UserControlStyle.xaml" />
+				<ResourceDictionary Source="pack://siteoforigin:,,,/Themes/Arcadust/Styles/UserControlStyle.xaml" />
 			</ResourceDictionary.MergedDictionaries>
 		</ResourceDictionary>
 	</UserControl.Resources>
@@ -77,7 +77,7 @@
 			<!-- TIME 
 				<Viewbox Grid.Row="6" Grid.Column="5" HorizontalAlignment="Stretch">
 					<DockPanel HorizontalAlignment="Right">
-						<TextBlock x:Name="Clock" Text="{Binding CurrentTime}" FontSize="10" Margin="0,2,0,4" FontFamily="LAUNCHBOX_ROOT_FOLDER/Themes/ArcadeDust/Fonts/FreeDesign001Bitbit.ttf#FreeDesign001Bitbit" Foreground="#ff3434">
+						<TextBlock x:Name="Clock" Text="{Binding CurrentTime}" FontSize="10" Margin="0,2,0,4" FontFamily="LAUNCHBOX_ROOT_FOLDER/Themes/Arcadust/Fonts/FreeDesign001Bitbit.ttf#FreeDesign001Bitbit" Foreground="#ff3434">
 						</TextBlock>
 					</DockPanel>
 				</Viewbox>

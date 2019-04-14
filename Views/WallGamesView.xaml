@@ -19,7 +19,7 @@
     <UserControl.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
-                <ResourceDictionary Source="pack://siteoforigin:,,,/Themes/ArcadeDust/Styles/HorizontalListBoxStyle.xaml" />
+                <ResourceDictionary Source="pack://siteoforigin:,,,/Themes/Arcadust/Styles/HorizontalListBoxStyle.xaml" />
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </UserControl.Resources>

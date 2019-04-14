@@ -13,7 +13,7 @@
 
 	<!-- BACKGROUND -->	
 		<Grid Height="{Binding ElementName=Canvas, Path=ActualHeight}" Width="{Binding ElementName=Canvas, Path=ActualWidth}">
-			<videos:VideoControl VideoPath="pack://siteoforigin:,,,/Themes/ArcadeDust/Videos/Background.mp4" StretchVideo="true" CenterVideo="false" />
+			<videos:VideoControl VideoPath="pack://siteoforigin:,,,/Themes/Arcadust/Videos/Background.mp4" StretchVideo="true" CenterVideo="false" />
 		</Grid>
 		
 

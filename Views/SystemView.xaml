@@ -11,15 +11,15 @@
 	<UserControl.Resources>
 		<ResourceDictionary>
 			<ResourceDictionary.MergedDictionaries>
-				<ResourceDictionary Source="pack://siteoforigin:,,,/Themes/ArcadeDust/Styles/UserControlStyle.xaml" />
-				<ResourceDictionary Source="pack://siteoforigin:,,,/Themes/ArcadeDust/Styles/ListBoxStyle.xaml" />
+				<ResourceDictionary Source="pack://siteoforigin:,,,/Themes/Arcadust/Styles/UserControlStyle.xaml" />
+				<ResourceDictionary Source="pack://siteoforigin:,,,/Themes/Arcadust/Styles/ListBoxStyle.xaml" />
 			</ResourceDictionary.MergedDictionaries>
 		</ResourceDictionary>
 	</UserControl.Resources>
 
 	<Canvas Name="Canvas">
 		<Canvas.Background>
-			<ImageBrush ImageSource="pack://siteoforigin:,,,/Themes/ArcadeDust/Images/Theme/czch.png" Stretch="UniformToFill" />
+			<ImageBrush ImageSource="pack://siteoforigin:,,,/Themes/Arcadust/Images/Theme/czch.png" Stretch="UniformToFill" />
 		</Canvas.Background>
 		<Grid Height="{Binding ElementName=Canvas, Path=ActualHeight}" Width="{Binding ElementName=Canvas, Path=ActualWidth}">
 			<Grid.Background>
@@ -40,7 +40,7 @@
 
 					<!-- FILTERS BIGBOX TITLE -->
 					<Grid Grid.Row="0" Background="black">
-						<TextBlock Text="BIGBOX" VerticalAlignment="Center" FontFamily="LAUNCHBOX_ROOT_FOLDER/Themes/ArcadeDust/Fonts/kemco.ttf#Kemco Pixel" Foreground="#ff3737" TextTrimming="CharacterEllipsis" TextWrapping="NoWrap" HorizontalAlignment="Center" FontSize="39" />
+						<TextBlock Text="BIGBOX" VerticalAlignment="Center" FontFamily="LAUNCHBOX_ROOT_FOLDER/Themes/Arcadust/Fonts/kemco.ttf#Kemco Pixel" Foreground="#ff3737" TextTrimming="CharacterEllipsis" TextWrapping="NoWrap" HorizontalAlignment="Center" FontSize="39" />
 					</Grid> 
 
 					<!-- FILTERS LIST -->

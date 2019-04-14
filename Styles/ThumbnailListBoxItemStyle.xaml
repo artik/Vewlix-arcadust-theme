@@ -7,7 +7,7 @@
 		<Setter Property="Padding" Value="5" />
 		<Setter Property="Margin" Value="0, 0, 5, 0" />
 		<Setter Property="Background" Value="red" />
-		<Setter Property="FontFamily" Value="LAUNCHBOX_ROOT_FOLDER/Themes/ArcadeDust/Fonts/FreeDesign001Bitbit.ttf#FreeDesign001Bitbit" />
+		<Setter Property="FontFamily" Value="LAUNCHBOX_ROOT_FOLDER/Themes/Arcadust/Fonts/FreeDesign001Bitbit.ttf#FreeDesign001Bitbit" />
 		<Setter Property="ScrollViewer.VerticalScrollBarVisibility" Value="Disabled" />
 		<Setter Property="Template">
 			<Setter.Value>

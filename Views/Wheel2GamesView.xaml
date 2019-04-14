@@ -14,9 +14,9 @@
 	
 	    <UserControl.Resources>
         <ResourceDictionary>
-            <ResourceDictionary.MergedDictionaries>                <ResourceDictionary Source="pack://siteoforigin:,,,/Themes/ArcadeDust/Styles/UserControlStyle.xaml" />
+            <ResourceDictionary.MergedDictionaries>                <ResourceDictionary Source="pack://siteoforigin:,,,/Themes/Arcadust/Styles/UserControlStyle.xaml" />
 
-                <ResourceDictionary Source="pack://siteoforigin:,,,/Themes/ArcadeDust/Styles/HorizontalListBoxStyle.xaml" />
+                <ResourceDictionary Source="pack://siteoforigin:,,,/Themes/Arcadust/Styles/HorizontalListBoxStyle.xaml" />
             </ResourceDictionary.MergedDictionaries>
 
         <bigBox:ImageToSourceConverter x:Key="ImageToSourceConverter" x:Name="ImageToSourceConverter"/>
@@ -96,7 +96,7 @@
 
 	<!-- BACKGROUND -->
 		<Grid Height="{Binding ElementName=Canvas, Path=ActualHeight}" Width="{Binding ElementName=Canvas, Path=ActualWidth}">
-			<videos:VideoControl VideoPath="pack://siteoforigin:,,,/Themes/ArcadeDust/Videos/Background.mp4" StretchVideo="true" CenterVideo="false" />
+			<videos:VideoControl VideoPath="pack://siteoforigin:,,,/Themes/Arcadust/Videos/Background.mp4" StretchVideo="true" CenterVideo="false" />
 		</Grid>
 		
 	
@@ -320,19 +320,19 @@
 						<Style TargetType="Image" >
 							<Style.Triggers>
 								<DataTrigger Binding="{Binding ActiveGame.StarRating}" Value="1" >
-									<Setter Property="Source" Value="pack://siteoforigin:,,,/Themes/ArcadeDust/Images/CustomIcons/StarRating1.png" />
+									<Setter Property="Source" Value="pack://siteoforigin:,,,/Themes/Arcadust/Images/CustomIcons/StarRating1.png" />
 								</DataTrigger>
 								<DataTrigger Binding="{Binding ActiveGame.StarRating}" Value="2" >
-									<Setter Property="Source" Value="pack://siteoforigin:,,,/Themes/ArcadeDust/Images/CustomIcons/StarRating2.png" />
+									<Setter Property="Source" Value="pack://siteoforigin:,,,/Themes/Arcadust/Images/CustomIcons/StarRating2.png" />
 								</DataTrigger>
 								<DataTrigger Binding="{Binding ActiveGame.StarRating}" Value="3" >
-									<Setter Property="Source" Value="pack://siteoforigin:,,,/Themes/ArcadeDust/Images/CustomIcons/StarRating3.png" />
+									<Setter Property="Source" Value="pack://siteoforigin:,,,/Themes/Arcadust/Images/CustomIcons/StarRating3.png" />
 								</DataTrigger>
 								<DataTrigger Binding="{Binding ActiveGame.StarRating}" Value="4" >
-									<Setter Property="Source" Value="pack://siteoforigin:,,,/Themes/ArcadeDust/Images/CustomIcons/StarRating4.png" />
+									<Setter Property="Source" Value="pack://siteoforigin:,,,/Themes/Arcadust/Images/CustomIcons/StarRating4.png" />
 								</DataTrigger>
 								<DataTrigger Binding="{Binding ActiveGame.StarRating}" Value="5" >
-									<Setter Property="Source" Value="pack://siteoforigin:,,,/Themes/ArcadeDust/Images/CustomIcons/StarRating5.png" />
+									<Setter Property="Source" Value="pack://siteoforigin:,,,/Themes/Arcadust/Images/CustomIcons/StarRating5.png" />
 								</DataTrigger>
 							</Style.Triggers>
 						</Style>

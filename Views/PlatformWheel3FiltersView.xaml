@@ -15,7 +15,7 @@
 	<UserControl.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
-                <ResourceDictionary Source="pack://siteoforigin:,,,/Themes/ArcadeDust/Styles/UserControlStyle.xaml" />
+                <ResourceDictionary Source="pack://siteoforigin:,,,/Themes/Arcadust/Styles/UserControlStyle.xaml" />
             </ResourceDictionary.MergedDictionaries>
 
         <FontFamily x:Key="FontHead">/CityHunter.Resources;Component/Fonts/#Streamster</FontFamily>

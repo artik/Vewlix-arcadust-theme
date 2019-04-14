@@ -12,7 +12,7 @@
     <UserControl.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
-                <ResourceDictionary Source="pack://siteoforigin:,,,/Themes/ArcadeDust/Styles/UserControlStyle.xaml" />
+                <ResourceDictionary Source="pack://siteoforigin:,,,/Themes/Arcadust/Styles/UserControlStyle.xaml" />
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </UserControl.Resources>
@@ -24,7 +24,7 @@
 
 	<!-- BACKGROUND -->
         <Grid Height="{Binding ElementName=Canvas, Path=ActualHeight}" Width="{Binding ElementName=Canvas, Path=ActualWidth}">
-			<videos:VideoControl VideoPath="pack://siteoforigin:,,,/Themes/ArcadeDust/Videos/Background.mp4" StretchVideo="true" CenterVideo="false" />
+			<videos:VideoControl VideoPath="pack://siteoforigin:,,,/Themes/Arcadust/Videos/Background.mp4" StretchVideo="true" CenterVideo="false" />
 		</Grid>        
 		
 	<!-- MAIN GRID -->	
