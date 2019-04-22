@@ -44,7 +44,7 @@
 
 					<!-- FILTERS LIST -->
 					<Grid Grid.Row="1">
-						<DockPanel Grid.Column="0" Background="Black">
+						<DockPanel Grid.Column="0" Background="black">
 							<ListBox Name="MenuItems" Style="{DynamicResource ListBoxStyle}">
 								<i:Interaction.Triggers>
 									<i:EventTrigger EventName="MouseDoubleClick">

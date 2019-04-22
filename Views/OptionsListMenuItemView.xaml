@@ -9,6 +9,6 @@
 			 MaxWidth="{Binding ActualWidth, RelativeSource={RelativeSource AncestorType={x:Type ListBox}}}"
              FocusVisualStyle="{x:Null}">
     <Border Name="Border" Width="{Binding ActualWidth, RelativeSource={RelativeSource AncestorType={x:Type ListBox}}}">
-        <TextBlock Name="Text" TextTrimming="CharacterEllipsis" TextWrapping="NoWrap" HorizontalAlignment="Stretch" />
+        <TextBlock Name="OptionListMenu" Text="{Binding Path=Text}" FontFamily="LAUNCHBOX_ROOT_FOLDER/Themes/Arcadust/Fonts/FreeDesign001Bitbit.ttf#FreeDesign001Bitbit" FontSize="20" TextTrimming="CharacterEllipsis" TextWrapping="NoWrap" HorizontalAlignment="Stretch" />
     </Border>
 </UserControl>

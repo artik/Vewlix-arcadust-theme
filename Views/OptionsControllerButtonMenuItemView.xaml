@@ -13,7 +13,7 @@
 			<ColumnDefinition Width="40*" />
 			<ColumnDefinition Width="60*" />
 		</Grid.ColumnDefinitions>
-		<TextBlock Name="Name" Foreground="White" TextTrimming="WordEllipsis" HorizontalAlignment="Stretch" Grid.Column="0" />
-		<TextBlock Name="Text" Foreground="White" TextTrimming="WordEllipsis" HorizontalAlignment="Stretch" Grid.Column="1" />
+		<TextBlock Name="OptionControllerName" Text="{Binding Path=Name}" FontFamily="LAUNCHBOX_ROOT_FOLDER/Themes/Arcadust/Fonts/FreeDesign001Bitbit.ttf#FreeDesign001Bitbit" FontSize="20" Foreground="White" TextTrimming="WordEllipsis" HorizontalAlignment="Stretch" Grid.Column="0" />
+		<TextBlock Name="OptionControllerText" Text="{Binding Path=Text}" FontFamily="LAUNCHBOX_ROOT_FOLDER/Themes/Arcadust/Fonts/FreeDesign001Bitbit.ttf#FreeDesign001Bitbit" FontSize="20" Foreground="White" TextTrimming="WordEllipsis" HorizontalAlignment="Stretch" Grid.Column="1" />
 	</Grid>
 </UserControl>

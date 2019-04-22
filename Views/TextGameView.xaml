@@ -10,8 +10,8 @@
 			 FocusVisualStyle="{x:Null}">
 	<Border Name="Border" Width="{Binding ActualWidth, RelativeSource={RelativeSource AncestorType={x:Type ListBox}}}">
 		<DockPanel>
-			<TextBlock Name="Favorite" DockPanel.Dock="Left" Visibility="{Binding FavoriteVisibility}" Foreground="#ff3434" FontFamily="LAUNCHBOX_ROOT_FOLDER/Themes/Arcadust/Fonts/FreeDesign001Bitbit.ttf#FreeDesign001Bitbit" FontSize="10" >★</TextBlock>
-			<TextBlock Name="Title" TextTrimming="CharacterEllipsis" TextWrapping="NoWrap" HorizontalAlignment="Stretch" FontFamily="LAUNCHBOX_ROOT_FOLDER/Themes/Arcadust/Fonts/FreeDesign001Bitbit.ttf#FreeDesign001Bitbit" FontSize="50" Foreground="white" />
+			<TextBlock Name="GameFav" Text="★ " DockPanel.Dock="Left" Visibility="{Binding FavoriteVisibility}" Foreground="#ff3434" FontFamily="LAUNCHBOX_ROOT_FOLDER/Themes/Arcadust/Fonts/FreeDesign001Bitbit.ttf#FreeDesign001Bitbit" FontSize="19" ></TextBlock>
+			<TextBlock Name="GamesListing" Text="{Binding Path=Title}" TextTrimming="CharacterEllipsis" TextWrapping="NoWrap" HorizontalAlignment="Stretch" FontFamily="LAUNCHBOX_ROOT_FOLDER/Themes/Arcadust/Fonts/FreeDesign001Bitbit.ttf#FreeDesign001Bitbit" FontSize="20" Foreground="white" />
 		</DockPanel>
 	</Border>
 </UserControl>

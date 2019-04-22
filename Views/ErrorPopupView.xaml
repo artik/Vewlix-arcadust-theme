@@ -8,10 +8,10 @@
              HorizontalAlignment="Stretch"
              VerticalAlignment="Stretch"
              BorderThickness="3"
-             BorderBrush="White"
+             BorderBrush="#ff3434"
              FocusVisualStyle="{x:Null}">
     <UserControl.Background>
         <SolidColorBrush Color="Black" Opacity="0.85" />
     </UserControl.Background>
-    <TextBlock Name="Text" Foreground="White" TextTrimming="CharacterEllipsis" HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Center" Padding="10" />
+    <TextBlock Name="ErrorPopup" Text="{Binding Path=Text}" FontFamily="LAUNCHBOX_ROOT_FOLDER/Themes/Arcadust/Fonts/FreeDesign001Bitbit.ttf#FreeDesign001Bitbit" FontSize="19" Foreground="White" TextTrimming="CharacterEllipsis" HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Center" Padding="10" />
 </UserControl>

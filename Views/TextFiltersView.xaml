@@ -63,13 +63,13 @@
 									</i:EventTrigger>
 								</i:Interaction.Triggers>
 							</ListBox>
-							<lbsc:FilterList Name="Filters" FontSize="17">
-								<i:Interaction.Triggers>
-									<i:EventTrigger EventName="MouseDoubleClick">
-										<cal:ActionMessage MethodName="OnEnter" />
-									</i:EventTrigger>
-								</i:Interaction.Triggers>
-							</lbsc:FilterList>
+							<ListBox Name="Filters" Style="{DynamicResource ListBoxStyle}">
+			                    <i:Interaction.Triggers>
+			                        <i:EventTrigger EventName="MouseDoubleClick">
+			                            <cal:ActionMessage MethodName="OnEnter" />
+			                        </i:EventTrigger>
+			                    </i:Interaction.Triggers>
+			                </ListBox>
 						</DockPanel>
 					</Grid>	
 

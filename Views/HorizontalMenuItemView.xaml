@@ -9,6 +9,6 @@
 			 MaxHeight="{Binding ActualHeight, RelativeSource={RelativeSource AncestorType={x:Type ListBox}}}"
              FocusVisualStyle="{x:Null}">
     <Border Name="Border" Height="{Binding ActualHeight, RelativeSource={RelativeSource AncestorType={x:Type ListBox}}}">
-        <TextBlock Name="Text" TextTrimming="CharacterEllipsis" TextWrapping="NoWrap" VerticalAlignment="Stretch" />
+        <TextBlock Name="HorizonMenu" Text="{Binding Path=Text}" FontFamily="LAUNCHBOX_ROOT_FOLDER/Themes/Arcadust/Fonts/FreeDesign001Bitbit.ttf#FreeDesign001Bitbit" FontSize="19" TextTrimming="CharacterEllipsis" TextWrapping="NoWrap" VerticalAlignment="Stretch" />
     </Border>
 </UserControl>

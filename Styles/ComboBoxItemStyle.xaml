@@ -17,7 +17,7 @@
                     <ControlTemplate.Triggers>
                         <Trigger Property="IsHighlighted" Value="true">
                             <Setter Property="Background" Value="#FF3399FF" />
-                            <Setter Property="Foreground" Value="White" />
+                            <Setter Property="Foreground" Value="Yellow" />
                             <Setter Property="BorderBrush" Value="#FF3399FF" />
                         </Trigger>
                     </ControlTemplate.Triggers>

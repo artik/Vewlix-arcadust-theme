@@ -7,6 +7,6 @@
              d:DesignWidth="300"
              FocusVisualStyle="{x:Null}">
     <CheckBox Name="CheckBox" IsChecked="{Binding IsChecked}">
-        <Label Foreground="White" Content="{Binding Name}" Padding="0" Margin="0"></Label>
+        <Label Foreground="White" Content="{Binding Name}" FontFamily="LAUNCHBOX_ROOT_FOLDER/Themes/Arcadust/Fonts/FreeDesign001Bitbit.ttf#FreeDesign001Bitbit" FontSize="20" Padding="0" Margin="0"></Label>
     </CheckBox>
 </UserControl>

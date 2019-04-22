@@ -28,7 +28,7 @@
 		
 	<!-- DETAILS HEADING -->	
 		<DockPanel Grid.Column="1" Panel.ZIndex="5">
-			<TextBlock Text="Details" FontFamily="{StaticResource FontBody}" FontSize="36" TextWrapping="Wrap" DockPanel.Dock="Top" >
+			<TextBlock Name="GameDetailsHeading" Text="{Binding Path=Details}" FontFamily="LAUNCHBOX_ROOT_FOLDER/Themes/Arcadust/Fonts/FreeDesign001Bitbit.ttf#FreeDesign001Bitbit" FontSize="20" Foreground="Yellow" TextWrapping="Wrap" DockPanel.Dock="Top" >
 				<TextBlock.Foreground>
 					<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
 						<GradientStop Color="#FFFE1C1C" Offset="1"/>
@@ -42,13 +42,13 @@
 			
 			
 		<!-- GAME DETAILS -->
-			<TextBlock Name="GameDetails" Text="{Binding Path=Details}" FontFamily="{StaticResource FontBody}" FontSize="30" Foreground="White" TextWrapping="Wrap" DockPanel.Dock="Top" TextTrimming="CharacterEllipsis" Margin="0,10,0,0" />
+			<TextBlock Name="GameDetails" Text="{Binding Path=Details}" FontFamily="LAUNCHBOX_ROOT_FOLDER/Themes/Arcadust/Fonts/FreeDesign001Bitbit.ttf#FreeDesign001Bitbit" FontSize="20" Foreground="Yellow" TextWrapping="Wrap" DockPanel.Dock="Top" TextTrimming="CharacterEllipsis" Margin="0,10,0,0" />
 		</DockPanel>
 		
 		
 	<!-- DESCRIPTION HEADING -->	
 		<DockPanel Grid.Column="3" Panel.ZIndex="5">
-			<TextBlock Text="Description" FontFamily="{StaticResource FontBody}" FontSize="36" TextWrapping="Wrap" DockPanel.Dock="Top"  >
+			<TextBlock Name="GameDetailsDescription" Text="{Binding Path=Description}" FontFamily="LAUNCHBOX_ROOT_FOLDER/Themes/Arcadust/Fonts/FreeDesign001Bitbit.ttf#FreeDesign001Bitbit" FontSize="20" Foreground="Yellow" TextWrapping="Wrap" DockPanel.Dock="Top"  >
 				<TextBlock.Foreground>
 					<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
 						<GradientStop Color="#FFFE1C1C" Offset="1"/>

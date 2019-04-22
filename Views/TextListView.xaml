@@ -22,6 +22,7 @@
 		</ResourceDictionary>
 	</UserControl.Resources>
 
+	<!-- PLATEFORM LOGO -->
 	<DockPanel Name="RootPanel" Visibility="{Binding ListVisibility}" Background="Black">
 		<Image Name="Logo" DockPanel.Dock="Top" Visibility="{Binding LogoVisibility}" RenderOptions.BitmapScalingMode="HighQuality" />
 		<TextBlock Name="Title" FontFamily="LAUNCHBOX_ROOT_FOLDER/Themes/Arcadust/Fonts/kemco.ttf#Kemco Pixel" DockPanel.Dock="Top" Visibility="{Binding TitleVisibility}" Foreground="#ff3434" TextTrimming="CharacterEllipsis" TextWrapping="NoWrap" HorizontalAlignment="Stretch" />
@@ -33,13 +34,13 @@
 				</i:EventTrigger>
 			</i:Interaction.Triggers>
 		</ListBox>
-		<lbsc:GameList Name="Items" FontSize="17" Background="Black">
-			<i:Interaction.Triggers>
-				<i:EventTrigger EventName="MouseDoubleClick">
-					<cal:ActionMessage MethodName="OnEnter" />
-				</i:EventTrigger>
-			</i:Interaction.Triggers>
-		</lbsc:GameList>
+		<ListBox Name="Items" Style="{DynamicResource ListBoxStyle}">
+            <i:Interaction.Triggers>
+                <i:EventTrigger EventName="MouseDoubleClick">
+                    <cal:ActionMessage MethodName="OnEnter" />
+                </i:EventTrigger>
+            </i:Interaction.Triggers>
+        </ListBox>
 
 	</DockPanel>
 </UserControl>

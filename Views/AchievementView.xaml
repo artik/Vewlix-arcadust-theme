@@ -11,8 +11,9 @@
     <Border Name="Border" Width="{Binding ActualWidth, RelativeSource={RelativeSource AncestorType={x:Type ListBox}}}">
         <DockPanel>
             <Image Name="Image" Visibility="{Binding ImageVisibility}" DockPanel.Dock="Left" RenderOptions.BitmapScalingMode="HighQuality" Width="76" Height="76" />
-            <TextBlock Name="Title" DockPanel.Dock="Top" Foreground="White" Margin="12,0,0,0" />
-            <TextBlock Name="Description" Foreground="White" Margin="12,0,0,0" />
+
+            <TextBlock Name="AchievmentTitle"  Text="{Binding Path=Title}" DockPanel.Dock="Left" Visibility="{Binding FavoriteVisibility}" Foreground="#ff3434" FontFamily="LAUNCHBOX_ROOT_FOLDER/Themes/Arcadust/Fonts/FreeDesign001Bitbit.ttf#FreeDesign001Bitbit" FontSize="20" Margin="12,0,0,0"></TextBlock>
+            <TextBlock Name="AchievmentDescription"  Text="{Binding Path=Description}" DockPanel.Dock="Left" Visibility="{Binding FavoriteVisibility}" Foreground="#ff3434" FontFamily="LAUNCHBOX_ROOT_FOLDER/Themes/Arcadust/Fonts/FreeDesign001Bitbit.ttf#FreeDesign001Bitbit" FontSize="20" Margin="12,0,0,0"></TextBlock>
         </DockPanel>
     </Border>
 </UserControl>

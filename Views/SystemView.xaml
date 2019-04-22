@@ -46,13 +46,13 @@
 					<!-- FILTERS LIST -->
 					<Grid Grid.Row="1">
 						<DockPanel Grid.Column="0" Background="Black">
-							<lbsc:SystemList Name="MenuItems" FontSize="17">
+							<ListBox Name="MenuItems" Style="{DynamicResource ListBoxStyle}">
 								<i:Interaction.Triggers>
 									<i:EventTrigger EventName="MouseDoubleClick">
 										<cal:ActionMessage MethodName="OnEnter" />
 									</i:EventTrigger>
 								</i:Interaction.Triggers>
-							</lbsc:SystemList>
+							</ListBox>
 						</DockPanel>
 					</Grid> 
 
