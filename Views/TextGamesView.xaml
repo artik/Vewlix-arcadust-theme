@@ -29,10 +29,10 @@
 		<Grid Height="{Binding ElementName=Canvas, Path=ActualHeight}" Width="{Binding ElementName=Canvas, Path=ActualWidth}" Background="#1a1a1a">
 			<Grid.ColumnDefinitions>
 				<ColumnDefinition Width="25*" />
-				<ColumnDefinition Width="2*" />
+				<ColumnDefinition Width="3*" />
 				<ColumnDefinition Width="36*" />
 				<ColumnDefinition Width="2*" />
-				<ColumnDefinition Width="2*" />
+				<ColumnDefinition Width="1*" />
 				<ColumnDefinition Width="29*" />
 				<ColumnDefinition Width="2*" />
 				<ColumnDefinition Width="2*" />
@@ -53,7 +53,7 @@
 				<transitions:TransitionPresenter Grid.Column="0" Grid.Row="0" Grid.RowSpan="7" TransitionSelector="{Binding ListTransitionSelector}" Content="{Binding ListView}" Panel.ZIndex="99" />
 
 
-			<!-- MEDIA -->
+			<!-- JEFF SHADOW COVER AND VIDEO -->
 				<transitions:TransitionPresenter Grid.Column="2" Grid.Row="1" Grid.RowSpan="2" TransitionSelector="{Binding ImageTransitionSelector}" Content="{Binding ImageView}" >
 					<transitions:TransitionPresenter.Effect>
 						<DropShadowEffect Color="black" Direction="0" ShadowDepth="0" BlurRadius="15" RenderingBias="Performance"/>
@@ -67,8 +67,8 @@
 				</transitions:TransitionPresenter>
 
 				
-			<!-- DETAILS GLASS BAR -->
-				<Border Grid.Column="4" Grid.ColumnSpan="3" Grid.Row="1" Grid.RowSpan="5" Background="Black" Opacity="0.4" Panel.ZIndex="4" SnapsToDevicePixels="True" CornerRadius="10" />
+			<!-- JEFF GAME VIEW RIGHT DETAIL PANEL -->
+				<Border Grid.Column="4" Grid.ColumnSpan="3" Grid.Row="1" Grid.RowSpan="5" Background="#1a1a1a" Opacity="0.4" Panel.ZIndex="4" SnapsToDevicePixels="True" CornerRadius="10" />
 				
 				
 			<!-- DETAILS -->	

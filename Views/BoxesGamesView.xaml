@@ -20,7 +20,7 @@
 	<!-- MAIN GRID -->
 		<Grid Height="{Binding ElementName=Canvas, Path=ActualHeight}" Width="{Binding ElementName=Canvas, Path=ActualWidth}">
 			<Grid.Background>
-				<SolidColorBrush Color="Black" Opacity="{Binding BackgroundFade}" />
+				<SolidColorBrush Color="blue" Opacity="{Binding BackgroundFade}" />
 			</Grid.Background>
 			<Grid.RowDefinitions>
 				<RowDefinition Height="3.5*" />
@@ -40,7 +40,7 @@
 				<ColumnDefinition Width="1*" />
 				<ColumnDefinition Width="3*" />
 			</Grid.ColumnDefinitions>
-			<Grid Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="7" Grid.RowSpan="7" Opacity="0.35" Background="Black" Panel.ZIndex="0"/>
+			<Grid Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="7" Grid.RowSpan="7" Opacity="0.35" Background="blue" Panel.ZIndex="0"/>
 			
 			
 		<!-- BOXES -->

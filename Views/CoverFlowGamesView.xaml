@@ -52,13 +52,13 @@
 				<RowDefinition Height="9*" />
 				<RowDefinition Height="2*" />
 			</Grid.RowDefinitions>
-			<Grid Grid.Row="0" Grid.RowSpan="6" Opacity="0.2" Background="Black" Panel.ZIndex="0"/>
+			<Grid Grid.Row="0" Grid.RowSpan="6" Opacity="0.2" Background="blue" Panel.ZIndex="0"/>
 			
 			
 		<!-- TITLE GRID -->
 			<Grid Grid.Row="0">
 				<Grid.Background>
-					<SolidColorBrush Color="Black" Opacity="0.7" />
+					<SolidColorBrush Color="blue" Opacity="0.7" />
 				</Grid.Background>
 				<Grid.ColumnDefinitions>
 					<ColumnDefinition Width="2*" />

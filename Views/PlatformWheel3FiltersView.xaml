@@ -161,11 +161,11 @@
 			<Grid x:Name="WheelHighlight1" Grid.Row="0" Grid.RowSpan="14" Grid.Column="0" Panel.ZIndex="4">
 				<Grid.Background>
                     <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-						<GradientStop Color="Black" Offset="0"/>
-						<GradientStop Color="Black" Offset="0.36"/>
+						<GradientStop Color="blue" Offset="0"/>
+						<GradientStop Color="blue" Offset="0.36"/>
 						<GradientStop Color="#00000000" Offset="0.40"/>
 						<GradientStop Color="#00000000" Offset="0.60"/>
-						<GradientStop Color="Black" Offset="0.64"/>						
+						<GradientStop Color="blue" Offset="0.64"/>						
                     </LinearGradientBrush>
                 </Grid.Background>
 			</Grid>
@@ -174,13 +174,13 @@
                     <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
 						<GradientStop Color="#00000000" Offset="0"/>
 						<GradientStop Color="#00000000" Offset="0.36"/>
-						<GradientStop Color="Black" Offset="0.40"/>
-						<GradientStop Color="Black" Offset="0.60"/>
+						<GradientStop Color="blue" Offset="0.40"/>
+						<GradientStop Color="blue" Offset="0.60"/>
 						<GradientStop Color="#00000000" Offset="0.64"/>						
                     </LinearGradientBrush>
                 </Grid.Background>
 			</Grid>
-			<Border x:Name="WheelGlass" Grid.Row="0" Grid.RowSpan="14" Grid.Column="0" Background="Black" Opacity="0" Panel.ZIndex="0" SnapsToDevicePixels="True" />
+			<Border x:Name="WheelGlass" Grid.Row="0" Grid.RowSpan="14" Grid.Column="0" Background="blue" Opacity="0" Panel.ZIndex="0" SnapsToDevicePixels="True" />
 			
 			
 		<!-- WHEEL FADE TRIGGER -->
@@ -198,7 +198,7 @@
 
 
 		<!-- CLOCK GLASS BAR -->
-			<Border x:Name="ClockGlass" Grid.Row="1" Grid.RowSpan="5" Grid.Column="6" Grid.ColumnSpan="3" Background="Black" Opacity="0" Panel.ZIndex="4" SnapsToDevicePixels="True" CornerRadius="10" />
+			<Border x:Name="ClockGlass" Grid.Row="1" Grid.RowSpan="5" Grid.Column="6" Grid.ColumnSpan="3" Background="blue" Opacity="0" Panel.ZIndex="4" SnapsToDevicePixels="True" CornerRadius="10" />
 			
 			
 		<!-- TIME -->	
@@ -224,7 +224,7 @@
 			</Viewbox>
 
 		<!-- METADATA GLASS BAR -->
-			<Border x:Name="MetaDataGlass" Grid.Column="4" Grid.ColumnSpan="5" Grid.Row="7" Grid.RowSpan="5" Background="Black" Opacity="0" Panel.ZIndex="15" SnapsToDevicePixels="True" CornerRadius="10" />
+			<Border x:Name="MetaDataGlass" Grid.Column="4" Grid.ColumnSpan="5" Grid.Row="7" Grid.RowSpan="5" Background="blue" Opacity="0" Panel.ZIndex="15" SnapsToDevicePixels="True" CornerRadius="10" />
 
 
 		<!-- PLATFORM TITLE -->

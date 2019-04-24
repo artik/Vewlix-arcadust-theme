@@ -44,13 +44,13 @@
 				<!-- FILTERS LIST CATEGORIES TITLE-->
 				<Grid Grid.Column="0">
 					<Grid.RowDefinitions>
-						<RowDefinition Height="8*" />
-						<RowDefinition Height="92*" />
+						<RowDefinition Height="7*" />
+						<RowDefinition Height="93*" />
 					</Grid.RowDefinitions>
 
 					<!-- FILTERS CATEGORIES TITLE-->
 					<Grid Grid.Row="0" Background="black">
-						<TextBlock Name="Title" VerticalAlignment="center" DockPanel.Dock="top" FontFamily="LAUNCHBOX_ROOT_FOLDER/Themes/Arcadust/Fonts/kemco.ttf#Kemco Pixel" Foreground="#ff3737" TextTrimming="CharacterEllipsis" TextWrapping="NoWrap" HorizontalAlignment="Center" />
+						<TextBlock Name="CategorieTitle"  Text="{Binding Path=Title}" VerticalAlignment="center" DockPanel.Dock="top" FontFamily="LAUNCHBOX_ROOT_FOLDER/Themes/Arcadust/Fonts/kemco.ttf#Kemco Pixel" Foreground="#ff3737" TextTrimming="CharacterEllipsis" FontSize="39" TextWrapping="NoWrap" HorizontalAlignment="Center" />
 					</Grid>	
 
 					<!-- FILTERS LIST TITLE-->

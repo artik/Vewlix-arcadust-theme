@@ -11,7 +11,7 @@
              BorderThickness="0"
              Margin="0"
              Padding="0"
-             Background="#000">
+             Background="#1a1a1a">
     <UserControl.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
@@ -22,14 +22,14 @@
 
 	<Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
 		<Grid.ColumnDefinitions>
-			<ColumnDefinition Width="5*" />
+			<ColumnDefinition Width="0*" />
 			<ColumnDefinition Width="100*" />
-			<ColumnDefinition Width="5*" />
+			<ColumnDefinition Width="0*" />
 		</Grid.ColumnDefinitions>
 		<Grid.RowDefinitions>
-			<RowDefinition Height="5*" />
-			<RowDefinition Height="100*" />
-			<RowDefinition Height="5*" />
+			<RowDefinition Height="7*" />
+			<RowDefinition Height="86*" />
+			<RowDefinition Height="7*" />
 		</Grid.RowDefinitions>
 		<ListBox Name="MenuItems" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Style="{DynamicResource ListBoxStyle}" Grid.Column="1" Grid.Row="1" />
 	</Grid>

@@ -21,7 +21,7 @@
 		</Canvas.Background>
 		<Grid Height="{Binding ElementName=Canvas, Path=ActualHeight}" Width="{Binding ElementName=Canvas, Path=ActualWidth}">
 			<Grid.Background>
-				<SolidColorBrush Color="Black" Opacity="0.2" />
+				<SolidColorBrush Color="transparent" Opacity="0.2" />
 			</Grid.Background>
 			<Grid.ColumnDefinitions>
 				<ColumnDefinition Width="25*" />
@@ -29,7 +29,7 @@
 				<ColumnDefinition Width="71*" />
 			</Grid.ColumnDefinitions>
 
-				<!-- FILTERS LIST BIGBOX TITLE -->
+				<!-- JEFF FILTERS LIST BIGBOX TITLE -->
 				<Grid Grid.Column="0">
 
 					<Grid.RowDefinitions>
@@ -37,12 +37,12 @@
 						<RowDefinition Height="93*" />
 					</Grid.RowDefinitions>
 
-					<!-- FILTERS OPTIONS TITLE -->
+					<!-- JEFF FILTERS OPTIONS TITLE -->
 					<Grid Grid.Row="0" Background="black">
 						<TextBlock Text="OPTIONS" VerticalAlignment="Center" FontFamily="LAUNCHBOX_ROOT_FOLDER/Themes/Arcadust/Fonts/kemco.ttf#Kemco Pixel" Foreground="#ff3737" TextTrimming="CharacterEllipsis" TextWrapping="NoWrap" HorizontalAlignment="Center" FontSize="39" />
 					</Grid> 
 
-					<!-- FILTERS LIST -->
+					<!-- JEFF OPTIONS FILTERS LIST -->
 					<Grid Grid.Row="1">
 						<DockPanel Grid.Column="0" Background="black">
 							<ListBox Name="MenuItems" Style="{DynamicResource ListBoxStyle}">

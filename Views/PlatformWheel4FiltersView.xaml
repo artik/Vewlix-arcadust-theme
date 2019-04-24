@@ -36,7 +36,7 @@
 	<!-- MAIN GRID -->
         <Grid Height="{Binding ElementName=Canvas, Path=ActualHeight}" Width="{Binding ElementName=Canvas, Path=ActualWidth}">
             <Grid.Background>
-				<SolidColorBrush Color="Black" Opacity="{Binding BackgroundFade}" />
+				<SolidColorBrush Color="blue" Opacity="{Binding BackgroundFade}" />
 			</Grid.Background>
 			<Grid.ColumnDefinitions>
 				<ColumnDefinition Width="1*" />
@@ -58,7 +58,7 @@
                 <RowDefinition Height="11*" />
                 <RowDefinition Height="25*" />
             </Grid.RowDefinitions>			
-			<Grid Grid.Row="0" Grid.RowSpan="9" Grid.Column="0" Grid.ColumnSpan="7" Opacity="0.3" Background="Black" Panel.ZIndex="0"/>
+			<Grid Grid.Row="0" Grid.RowSpan="9" Grid.Column="0" Grid.ColumnSpan="7" Opacity="0.3" Background="blue" Panel.ZIndex="0"/>
 
 
 		<!-- PLATFORM CATEGORY CLEAR LOGO -->
@@ -66,7 +66,7 @@
 			
 			
 		<!-- CLOCK GLASS BAR -->
-			<Border Grid.Row="1" Grid.RowSpan="5" Grid.Column="3" Grid.ColumnSpan="3" Background="Black" Opacity="0.7" Panel.ZIndex="4" SnapsToDevicePixels="True" CornerRadius="10" />
+			<Border Grid.Row="1" Grid.RowSpan="5" Grid.Column="3" Grid.ColumnSpan="3" Background="blue" Opacity="0.7" Panel.ZIndex="4" SnapsToDevicePixels="True" CornerRadius="10" />
 
 
 		<!-- TIME -->	
@@ -117,7 +117,7 @@
 		<!-- WHEEL GRID -->
             <Grid Grid.Row="7" Grid.Column="0" Grid.ColumnSpan="7">
                 <Grid.Background>
-                    <SolidColorBrush Color="Black" Opacity="0.5"/>
+                    <SolidColorBrush Color="blue" Opacity="0.5"/>
                 </Grid.Background>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="1*" />
@@ -150,11 +150,11 @@
 					<Grid x:Name="WheelHighlight1" Opacity="0.5" Panel.ZIndex="4">
 						<Grid.Background>
 							<LinearGradientBrush EndPoint="1,0" StartPoint="0,0">
-								<GradientStop Color="Black" Offset="0"/>
-								<GradientStop Color="Black" Offset="0.35"/>
+								<GradientStop Color="blue" Offset="0"/>
+								<GradientStop Color="blue" Offset="0.35"/>
 								<GradientStop Color="#00000000" Offset="0.37"/>
 								<GradientStop Color="#00000000" Offset="0.63"/>
-								<GradientStop Color="Black" Offset="0.65"/>						
+								<GradientStop Color="blue" Offset="0.65"/>						
 							</LinearGradientBrush>
 						</Grid.Background>
 					</Grid>
@@ -163,8 +163,8 @@
 							<LinearGradientBrush EndPoint="1,0" StartPoint="0,0">
 								<GradientStop Color="#00000000" Offset="0"/>
 								<GradientStop Color="#00000000" Offset="0.35"/>
-								<GradientStop Color="Black" Offset="0.37"/>
-								<GradientStop Color="Black" Offset="0.63"/>
+								<GradientStop Color="blue" Offset="0.37"/>
+								<GradientStop Color="blue" Offset="0.63"/>
 								<GradientStop Color="#00000000" Offset="0.65"/>						
 							</LinearGradientBrush>
 						</Grid.Background>
@@ -203,7 +203,7 @@
 					
 					
 				<!-- METADATA GLASS BAR -->
-					<Border Grid.Column="3" Grid.ColumnSpan="3" Background="Black" Opacity="0.7" Panel.ZIndex="4" SnapsToDevicePixels="True" CornerRadius="10" />
+					<Border Grid.Column="3" Grid.ColumnSpan="3" Background="blue" Opacity="0.7" Panel.ZIndex="4" SnapsToDevicePixels="True" CornerRadius="10" />
 
 
 				<!-- PLATFORM BANNER -->

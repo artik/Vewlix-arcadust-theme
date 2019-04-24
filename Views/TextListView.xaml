@@ -22,7 +22,7 @@
 		</ResourceDictionary>
 	</UserControl.Resources>
 
-	<!-- PLATEFORM LOGO -->
+	<!-- JEFF PLATEFORM LOGO -->
 	<DockPanel Name="RootPanel" Visibility="{Binding ListVisibility}" Background="Black">
 		<Image Name="Logo" DockPanel.Dock="Top" Visibility="{Binding LogoVisibility}" RenderOptions.BitmapScalingMode="HighQuality" />
 		<TextBlock Name="Title" FontFamily="LAUNCHBOX_ROOT_FOLDER/Themes/Arcadust/Fonts/kemco.ttf#Kemco Pixel" DockPanel.Dock="Top" Visibility="{Binding TitleVisibility}" Foreground="#ff3434" TextTrimming="CharacterEllipsis" TextWrapping="NoWrap" HorizontalAlignment="Stretch" />

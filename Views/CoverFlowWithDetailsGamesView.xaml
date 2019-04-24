@@ -53,13 +53,13 @@
 				<RowDefinition Height="9*" />
 				<RowDefinition Height="2*" />
 			</Grid.RowDefinitions>
-			<Grid Grid.Row="0" Grid.RowSpan="7" Opacity="0.3" Background="Black" Panel.ZIndex="0"/>
+			<Grid Grid.Row="0" Grid.RowSpan="7" Opacity="0.3" Background="blue" Panel.ZIndex="0"/>
 
 
 		<!-- TITLE GRID -->
 			<Grid Grid.Row="0">
 				<Grid.Background>
-					<SolidColorBrush Color="Black" Opacity="0.7" />
+					<SolidColorBrush Color="blue" Opacity="0.7" />
 				</Grid.Background>
 				<Grid.ColumnDefinitions>
 					<ColumnDefinition Width="2*" />
@@ -126,7 +126,7 @@
 					
 					
 				<!-- METADATA GLASS BAR -->
-					<Border Grid.Row="0" Grid.RowSpan="3" Background="Black" Opacity="0.7" Panel.ZIndex="4" SnapsToDevicePixels="True" CornerRadius="10" />
+					<Border Grid.Row="0" Grid.RowSpan="3" Background="blue" Opacity="0.7" Panel.ZIndex="4" SnapsToDevicePixels="True" CornerRadius="10" />
 					
 					
 				<!-- GAME METADATA -->

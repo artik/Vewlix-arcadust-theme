@@ -11,7 +11,7 @@
              BorderBrush="White"
              FocusVisualStyle="{x:Null}">
     <UserControl.Background>
-        <SolidColorBrush Color="Black" Opacity="0.85" />
+        <SolidColorBrush Color="blue" Opacity="0.85" />
     </UserControl.Background>
     <DockPanel>
         <Image Name="Image" DockPanel.Dock="Left" Source="{Binding ImagePath}" RenderOptions.BitmapScalingMode="HighQuality" />

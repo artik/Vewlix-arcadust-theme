@@ -23,7 +23,7 @@
 		</Canvas.Background>
 		<Grid Height="{Binding ElementName=Canvas, Path=ActualHeight}" Width="{Binding ElementName=Canvas, Path=ActualWidth}">
 			<Grid.Background>
-				<SolidColorBrush Color="Black" Opacity="0.2" />
+				<SolidColorBrush Color="Transparent" />
 			</Grid.Background>
 			<Grid.ColumnDefinitions>
 				<ColumnDefinition Width="25*" />
@@ -44,8 +44,8 @@
 					</Grid> 
 
 					<!-- FILTERS LIST -->
-					<Grid Grid.Row="1">
-						<DockPanel Grid.Column="0" Background="Black">
+					<Grid Grid.Row="2">
+						<DockPanel Grid.Column="0" Background="black">
 							<ListBox Name="MenuItems" Style="{DynamicResource ListBoxStyle}">
 								<i:Interaction.Triggers>
 									<i:EventTrigger EventName="MouseDoubleClick">
@@ -58,7 +58,11 @@
 
 				</Grid>
 
-			<TextBlock Name="Version" Grid.Column="1" Foreground="White" VerticalAlignment="Bottom" HorizontalAlignment="Right"/>
+					<Grid Grid.Column="1" Margin="0,0,60,90">
+			<!-- JEFF LISENCE PAGE -->
+			<TextBlock Name="Lisence" Text="{Binding Path=Version}" FontFamily="LAUNCHBOX_ROOT_FOLDER/Themes/Arcadust/Fonts/FreeDesign001Bitbit.ttf#FreeDesign001Bitbit" FontSize="19" Foreground="#ff3434" VerticalAlignment="Bottom" HorizontalAlignment="Right"/>
+					</Grid> 
+
 		</Grid>
 	</Canvas>
 </UserControl>

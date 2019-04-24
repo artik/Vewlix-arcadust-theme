@@ -20,7 +20,7 @@
                 <ItemsPanelTemplate>
                     <VirtualizingStackPanel Orientation="Horizontal" IsItemsHost="True" HorizontalAlignment="Center">
                         <VirtualizingStackPanel.Background>
-                            <SolidColorBrush Color="Black" Opacity="0.5" />
+                            <SolidColorBrush Color="blue" Opacity="0.5" />
                         </VirtualizingStackPanel.Background>
                     </VirtualizingStackPanel>
                 </ItemsPanelTemplate>
